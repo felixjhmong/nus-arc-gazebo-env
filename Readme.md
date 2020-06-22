@@ -51,10 +51,10 @@ Next, open up a new terminal, launch your algorithm for testing. By default, let
 We now have a fully working robot, that is able to control through your teleop terminal and view its mapping through Rviz. The next section will cover some tips for map viewing and troubleshooting. 
 
 ## 5. Tips and Troubleshooting
-*Updating in progress*
 To have a better view of the map, you could control the following parameters in Rviz, 
-odometry -> position -> alpha -> 0
-odometry -> cohesion -> alpha -> 0 
+
+ - Odometry -> Shape -> Alpha -> 0 
+ - Odometry -> Covariance -> Position -> Alpha -> 0
 
 > Husky not appearing in Rviz, after i launched it 
 
@@ -65,7 +65,7 @@ Ensure you have spawned the husky in Gazebo before visualizing it in Rviz
 Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDE4MjQ4NCwzNTM3MTAyMTksMTE1OT
-M0MTQ3MSwtMTc3OTM1MDgzMiwtOTI1ODY3NjM2LDE4NjI1MDk3
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTE4OTEzNDM5MTEsMTI1NTc1MzAzMiwtMz
+AwMTgyNDg0LDM1MzcxMDIxOSwxMTU5MzQxNDcxLC0xNzc5MzUw
+ODMyLC05MjU4Njc2MzYsMTg2MjUwOTcwNV19
 -->
